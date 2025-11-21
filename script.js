@@ -1,10 +1,10 @@
-const nameBox=document.getElementById("nameInput");
+//const nameBox=document.getElementById("nameInput");
 console.log(nameBox);
 
-const ageBox=document.getElementById("ageInput");
+//const ageBox=document.getElementById("ageInput");
 console.log(ageBox);
 
-const favoriteColor =document.getElementById("colorInput");
+//const favoriteColor =document.getElementById("colorInput");
 console.log(favoriteColor);
 
 const favoritePet=document.querySelectorAll("input[type='radio']");
@@ -21,3 +21,9 @@ function change(){
 console.log(yourHobbies);
 }
 
+sumbitBtn.addEventListener("click", function(){
+    const nameBox= nameInput.value;
+    const ageBox=nameInput.value;
+    const favoriteColorolor =colorInput.value;
+
+});
